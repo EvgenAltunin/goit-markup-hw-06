@@ -439,6 +439,10 @@ button.hero:focus {
 }
 
 .exit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
 
     top: 8px;
@@ -459,6 +463,11 @@ button.hero:focus {
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.exit-icon {
+    fill: var(--black-color);
+
 }
 
 .exit-button:hover,
