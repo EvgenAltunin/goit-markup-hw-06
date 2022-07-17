@@ -466,7 +466,7 @@ button.hero:focus {
 }
 
 .exit-icon {
-    fill: var(--black-color);
+    fill: currentColor;
 
 }
 
