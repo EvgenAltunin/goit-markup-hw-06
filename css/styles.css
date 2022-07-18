@@ -624,7 +624,12 @@ button.hero:focus {
     letter-spacing: 0.03em;
 
     margin-bottom: 30px;
+    cursor: pointer;
 
+}
+
+.checkbox-label:focus {
+    outline: 2px solid black;
 }
 
 .form-link {
@@ -1108,7 +1113,6 @@ img.project {
     align-items: flex-start;
     align-content: flex-start;
 
-    margin-right: 93px;
 
 }
 
@@ -1143,6 +1147,10 @@ img.project {
 .social-link.footer:hover,
 .social-link.footer:focus {
     background-color: var(--site-accent-color);
+}
+
+.subscription {
+    margin-left: auto;
 }
 
 .subscription-form {
