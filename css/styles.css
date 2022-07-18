@@ -537,6 +537,8 @@ button.hero:focus {
     margin-bottom: 4px;
 
     color: var(--secondary-text-color);
+
+    cursor: pointer;
 }
 
 .form-field-input {
