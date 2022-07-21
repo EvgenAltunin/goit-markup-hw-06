@@ -628,6 +628,8 @@ button.hero:focus {
     margin-bottom: 30px;
     cursor: pointer;
 
+    color: var(--secondary-text-color);
+
 }
 
 .checkbox-label:focus {
